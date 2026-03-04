@@ -6,11 +6,12 @@
 		"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-html,
-body {
-	@apply bg-white dark:bg-gray-950;
+html, body {
+	scroll-behavior: smooth;
+}
 
-	@media (prefers-color-scheme: dark) {
-		color-scheme: dark;
-	}
+.gradient-text {
+	background: linear-gradient(135deg, #34d399 0%, #3b82f6 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
